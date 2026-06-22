@@ -1,3 +1,4 @@
+"""Count the number of vowels in a string"""
 text = "programming"
 my_list = 'aioeu'
 count = 0

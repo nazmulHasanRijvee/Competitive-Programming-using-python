@@ -1,3 +1,4 @@
+"""Reverse the given string"""
 # Don't use text[::-1], reversed() method
 text = 'python'
 result = ''

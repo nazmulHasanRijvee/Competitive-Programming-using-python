@@ -1,3 +1,4 @@
+"""Find the largest number in the array"""
 # Without using max(), sorted() method
 nums = [5, 2, 8, 1, 4]
 largest = nums[0]

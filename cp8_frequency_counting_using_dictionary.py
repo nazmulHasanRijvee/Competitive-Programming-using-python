@@ -1,3 +1,4 @@
+"""Count frequency of letters in a string"""
 text = "banana"
 freq = {}
 for char in text:

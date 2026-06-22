@@ -1,3 +1,4 @@
+"""Find the second-largest number in a given array"""
 nums = [5, 7, 6]
 largest = nums[0]
 second_largest = nums[0]
