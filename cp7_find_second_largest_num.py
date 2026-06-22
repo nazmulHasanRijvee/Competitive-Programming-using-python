@@ -1,12 +1,11 @@
-nums = [5, 2, 8, 1, 4]
-largest = 0
-second_largest = 0
+nums = [5, 7, 6]
+largest = nums[0]
+second_largest = nums[0]
 for num in nums:
     if num > largest:
+        second_largest = largest # if new largest found move the first largest in the second
         largest = num
-nums.remove(largest)
-for num in nums:
-    if num > second_largest:
+    elif  num > second_largest: # else if check it's larger than the second one
         second_largest = num
 print(largest)
 print(second_largest)
