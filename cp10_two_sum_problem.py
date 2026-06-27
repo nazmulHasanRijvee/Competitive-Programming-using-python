@@ -7,5 +7,6 @@ for i in range(len(nums)):
     if needed in seen: # checking if the needed values is found in the dictionary or not
         output = [seen[needed], i]
         print(output)
+        break # break if the answer is found
     else:
         seen[nums[i]] = i # if not found then store current value and its index for future look up
