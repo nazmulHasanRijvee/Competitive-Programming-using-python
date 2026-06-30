@@ -4,7 +4,7 @@ target = 9
 seen = {}
 for i in range(len(nums)):
     needed = target - nums[i]
-    if needed in seen: # checking if the needed values is found in the dictionary or not
+    if needed in seen: # checking if the needed value is found in the dictionary or not
         output = [seen[needed], i]
         print(output)
         break # break if the answer is found
