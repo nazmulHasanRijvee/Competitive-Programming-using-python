@@ -19,9 +19,6 @@ def valid_anagram(s, t):
         freq[char] = freq.get(char, 0) - 1
         if freq.get(char, 0) < 0: return False
 
-    # for value in freq.values():
-    #     if value != 0: return False
-
     return True
 
 if __name__ == "__main__":
