@@ -8,12 +8,9 @@ nums = [1, 2, 3, 1]
 
 def check_duplicates(numbers):
 
-    seen = (
-        set()
-    )  # Using set because we only need to remember the seen number. Dictionary can be used too
+    seen = set()  # Using set because we only need to remember the seen number. Dictionary can be used too
 
     for num in numbers:
-
         if num in seen:
             return True
 
