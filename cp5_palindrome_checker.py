@@ -1,6 +1,7 @@
 """Find if the String is palindrome"""
+
 text = "racecar"
-result = ''
+result = ""
 for ch in text:
     result = ch + result
-print(result == text) # if else shorthand
+print(result == text)  # if else shorthand
